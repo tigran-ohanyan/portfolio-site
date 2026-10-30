@@ -2,6 +2,8 @@
 
 Personal one-page portfolio for a freelance developer. Plain HTML, CSS and JavaScript, no build step.
 
+![Screenshot](docs/screenshot.jpg)
+
 **Live:** https://tigran-ohanyan.github.io/portfolio-site/
 
 ## What's inside
