@@ -268,6 +268,36 @@ $ curl /api/links/pricing | jq .stats
               </div>
             </div>
           </article>
+          <article class="project reveal">
+            <div class="project-media" style="background: linear-gradient(135deg, #312e81, #0b1220);">
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; width: 100%;"><div style="background:#1e293b;border-radius:8px;padding:10px;font-size:.7rem;color:#94a3b8;">Spent<br><b style="color:#fff;font-size:1.1rem;">$1,629</b></div><div style="background:#1e293b;border-radius:8px;padding:10px;font-size:.7rem;color:#94a3b8;">Transactions<br><b style="color:#fff;font-size:1.1rem;">23</b></div><div style="background:#1e293b;border-radius:8px;padding:10px;font-size:.7rem;color:#94a3b8;">Largest<br><b style="color:#fff;font-size:1.1rem;">$850</b></div><div style="grid-column:1/-1;height:70px;border-radius:8px;background:conic-gradient(#4f46e5 0 52%, #16a34a 52% 81%, #a855f7 81% 88%, #f97316 88% 94%, #14b8a6 94% 100%);"></div></div>
+            </div>
+            <div class="project-body">
+              <h3>Expense Tracker</h3>
+              <p>Blazor Server app with EF Core and SQLite: monthly dashboard, category donut, six-month trend, inline editing, CSV export. Service layer under xUnit tests, Docker image.</p>
+              <ul class="tags"><li>C#</li><li>Blazor</li><li>EF Core</li><li>SQLite</li><li>xUnit</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/tigran-ohanyan/expense-tracker" target="_blank" rel="noopener">Source on GitHub →</a>
+              </div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-media" style="background: linear-gradient(135deg, #14532d, #0b1220);">
+<pre class="mini-terminal"><code>POST /api/products/7/movements
+{"delta": -3, "reason": "sale", "reference": "ORD-1042"}
+
+201 Created
+{"quantityAfter": 2, "lowStock": true}</code></pre>
+            </div>
+            <div class="project-body">
+              <h3>Inventory API</h3>
+              <p>ASP.NET Core minimal API for a small warehouse: products, stock movements with history, low-stock and stock-value reports, Swagger, ProblemDetails validation, 7 integration tests.</p>
+              <ul class="tags"><li>C#</li><li>ASP.NET Core</li><li>EF Core</li><li>Swagger</li><li>Docker</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/tigran-ohanyan/inventory-api" target="_blank" rel="noopener">Source on GitHub →</a>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
