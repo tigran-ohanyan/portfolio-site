@@ -196,6 +196,78 @@ dp = Dispatcher()
               </div>
             </div>
           </article>
+          <article class="project reveal">
+            <div class="project-media project-media-bot" style="background: linear-gradient(135deg, #0c4a6e, #0b1220);">
+              <div class="shop-mock" style="grid-template-rows: 1fr;"><div class="shop-mock-grid" style="grid-template-columns: repeat(3, 1fr);"><i style="background: #1e293b;"></i><i style="background: #0ea5e9; opacity: .7;"></i><i style="background: #1e293b;"></i></div></div>
+            </div>
+            <div class="project-body">
+              <h3>Taskboard</h3>
+              <p>Kanban board with a real backend: FastAPI, SQLAlchemy, JWT auth, tests and Docker. Drag and drop frontend with optimistic updates.</p>
+              <ul class="tags"><li>Python</li><li>FastAPI</li><li>SQLite</li><li>JWT</li><li>Docker</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/tigran-ohanyan/taskboard" target="_blank" rel="noopener">Source on GitHub →</a>
+              </div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-media" style="background: linear-gradient(135deg, #431407, #0b1220);">
+<pre class="mini-terminal"><code>$ curl -X POST /api/links -d '{"url":"https://example.com/pricing","slug":"pricing"}'
+{"short_url":"https://sho.rt/pricing","clicks":0}
+
+$ curl /api/links/pricing | jq .stats
+{ "total": 24, "referrers": [{"referrer":"twitter.com","count":14}] }</code></pre>
+            </div>
+            <div class="project-body">
+              <h3>shortly</h3>
+              <p>URL shortener with click analytics: Express and node:sqlite, API key, rate limiting, per-day stats, referrers and browsers. Tests, Docker, CI.</p>
+              <ul class="tags"><li>Node.js</li><li>Express</li><li>SQLite</li><li>REST API</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/tigran-ohanyan/shortly" target="_blank" rel="noopener">Source on GitHub →</a>
+              </div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-media" style="background: linear-gradient(135deg, #bae6fd, #fde68a); color: #0f172a;">
+              <div style="font-size: 3.5rem; font-weight: 300; display: flex; align-items: center; gap: 1rem;">☀️ <span>17°<small style="font-size: 1rem; display: block; font-weight: 500;">Yerevan · Clear sky</small></span></div>
+            </div>
+            <div class="project-body">
+              <h3>Weather Now</h3>
+              <p>City search with suggestions, current conditions, 24-hour strip and 7-day forecast from the Open-Meteo API. Units toggle, geolocation, weather-based themes.</p>
+              <ul class="tags"><li>JavaScript</li><li>Fetch API</li><li>CSS</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/tigran-ohanyan/weather-now" target="_blank" rel="noopener">Source →</a>
+                <a href="https://tigran-ohanyan.github.io/weather-now/" target="_blank" rel="noopener">Live demo →</a>
+              </div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-media" style="background: linear-gradient(135deg, #134e4a, #0b1220);">
+              <div style="background: #fff; color: #0f172a; border-radius: 8px; padding: 1rem 1.25rem; width: min(100%, 300px); font-size: 0.75rem; display: grid; gap: 0.4rem;"><strong style="color: #0f766e; font-size: 1.1rem;">Invoice #2026-014</strong><span>Landing page design and build … €1,800.00</span><span>Hosting setup, domain, SSL … €240.00</span><strong style="border-top: 2px solid #0f766e; padding-top: 0.4rem;">Total €2,784.60</strong></div>
+            </div>
+            <div class="project-body">
+              <h3>Invoice Maker</h3>
+              <p>Browser invoice generator: live A4 preview, tax and discount, currencies, themes, print to PDF, autosaved drafts. No server.</p>
+              <ul class="tags"><li>HTML</li><li>CSS print</li><li>JavaScript</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/tigran-ohanyan/invoice-maker" target="_blank" rel="noopener">Source →</a>
+                <a href="https://tigran-ohanyan.github.io/invoice-maker/" target="_blank" rel="noopener">Live demo →</a>
+              </div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-media" style="background: radial-gradient(600px 300px at 80% 20%, rgba(184,201,138,.4), transparent 60%), linear-gradient(180deg, #2a371f, #1f2a1b); color: #f6f1e7; font-family: Georgia, serif;">
+              <div style="font-size: 2rem; font-weight: 300; line-height: 1.1;">Seasonal plates,<br>natural wine, <em style="color: #b8c98a;">one long table.</em></div>
+            </div>
+            <div class="project-body">
+              <h3>Bistro landing page</h3>
+              <p>Restaurant one-pager: menu with tabs and dietary tags, gallery, hours, map block and a reservation form with weekday-aware time slots.</p>
+              <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/tigran-ohanyan/bistro-landing" target="_blank" rel="noopener">Source →</a>
+                <a href="https://tigran-ohanyan.github.io/bistro-landing/" target="_blank" rel="noopener">Live demo →</a>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
